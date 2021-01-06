@@ -1,14 +1,15 @@
-import Mock from "./mock";
+import './db/calendarEvents';
+import './db/chat';
+import './db/ecommerce';
+import './db/inbox';
+import './db/invoice';
+import './db/list';
+import './db/notification';
+import './db/quis';
+import './db/scrumBoard';
+import './db/todos';
+import './db/users';
 
-import "./db/invoice";
-import "./db/calendarEvents";
-import "./db/users";
-import "./db/inbox";
-import "./db/chat";
-import "./db/todos";
-import "./db/list";
-import "./db/scrumBoard";
-import "./db/notification";
-import "./db/ecommerce";
+import Mock from './mock';
 
 Mock.onAny().passThrough();

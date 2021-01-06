@@ -1,0 +1,34 @@
+.card-kuis {
+	.title-card {
+		color: #6a097d !important;
+	}
+	.subtitle-card {
+		font-weight: 600;
+		font-size: 16px;
+	}
+	.text {
+		color: #bbbfca;
+		font-weight: 600;
+	}
+	a.button {
+		margin-bottom: 10px;
+		box-shadow: none !important;
+		background-color: rgba(106, 9, 125, 0.15) !important;
+		color: #6a097d !important;
+		.text-button {
+			font-weight: 600;
+			font-family: "Quicksand", sans-serif;
+		}
+	}
+}
+.bordered {
+	background: #dddddd;
+	height: 1px;
+}
+
+.card-soal {
+	.soal {
+		font-weight: 400;
+		font-size: 17px;
+	}
+}

@@ -1,0 +1,37 @@
+.button-purple {
+	margin-bottom: 10px;
+	box-shadow: none !important;
+	background-color: rgba(106, 9, 125, 0.15) !important;
+	color: #6a097d !important;
+	.text-button {
+		font-weight: 600;
+		font-family: "Quicksand", sans-serif;
+	}
+}
+
+.button-danger {
+	margin-bottom: 10px;
+	box-shadow: none !important;
+	background-color: rgba(239, 79, 79, 0.25) !important;
+	color: #ef4f4f !important;
+	.text-button {
+		font-weight: 600;
+		font-family: "Quicksand", sans-serif;
+	}
+}
+.btn-nomor-soal {
+	display: flex;
+	background: rgba(106, 9, 125, 0.15);
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	max-width: 35px;
+	height: 34px;
+	border-radius: 5px;
+	&:hover {
+		background: rgba(106, 9, 125, 0.5);
+	}
+	&.active {
+		background: rgba(106, 9, 125, 0.7);
+	}
+}
