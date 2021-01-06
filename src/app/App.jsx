@@ -14,6 +14,7 @@ import MatxTheme from './MatxLayout/MatxTheme/MatxTheme';
 import { Store } from './redux/Store';
 import routes from './RootRoutes';
 
+console.log("app id======>", process.env);
 const App = () => {
 	return (
 		<AppContext.Provider value={{ routes }}>

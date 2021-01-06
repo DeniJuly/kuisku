@@ -6,7 +6,7 @@ import { classList } from 'utils';
 const CardKerjakanKuis = ({ children, title, subtitle, icon, expired }) => {
 	const [Countdown, setCountdown] = useState("");
 	const handleCountdown = () => {
-		var countDownDate = new Date("Jan 5, 2021 15:41:00").getTime() + expired * 60000;
+		var countDownDate = new Date("Jan 6, 2021 15:41:00").getTime() + expired * 60000;
 		var x = setInterval(function () {
 			var now = new Date().getTime();
 			var distance = countDownDate - now;

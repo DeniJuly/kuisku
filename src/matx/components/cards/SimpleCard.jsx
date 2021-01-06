@@ -2,7 +2,7 @@ import { Card } from '@material-ui/core';
 import React from 'react';
 import { classList } from 'utils';
 
-const SimpleCard = ({ children, title, subtitle, icon }) => {
+const SimpleCard = ({ children, title, subtitle, icon, noBorder }) => {
 	return (
 		<Card elevation={6} className="px-6 py-5 h-full">
 			<div
@@ -14,7 +14,7 @@ const SimpleCard = ({ children, title, subtitle, icon }) => {
 				{title}
 			</div>
 			{subtitle && <div className="card-subtitle mb-4">{subtitle}</div>}
-			<div className="bordered mb-5"></div>
+			{!noBorder && <div className="bordered mb-5"></div>}
 			{children}
 		</Card>
 	);

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 
+import BerandaRoutes from './views/beranda/BerandaRoutes';
 import dashboardRoutes from './views/dashboard/DashboardRoutes';
 import dragAndDropRoute from './views/Drag&Drop/DragAndDropRoute';
 import formsRoutes from './views/forms/FormsRoutes';
@@ -14,7 +15,7 @@ const redirectRoute = [
 	{
 		path: "/",
 		exact: true,
-		component: () => <Redirect to="/dashboard/analytics" />,
+		component: () => <Redirect to="/beranda" />,
 	},
 ];
 
@@ -25,6 +26,7 @@ const errorRoute = [
 ];
 
 const routes = [
+	...BerandaRoutes,
 	...KuisRoute,
 	...sessionRoutes,
 	...dashboardRoutes,

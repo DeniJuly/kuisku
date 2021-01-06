@@ -32,3 +32,18 @@
 		font-size: 17px;
 	}
 }
+.title-card-beranda {
+	color: #fff !important;
+	font-weight: 400;
+}
+.subtitle-card-beranda {
+	color: #fff !important;
+	font-weight: 600;
+}
+.card-beranda {
+	&:hover {
+		text-decoration: underline;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+		cursor: pointer;
+	}
+}
